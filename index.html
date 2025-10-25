@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google News</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+  </head>
+  <body style="background-color: #292a2d">
+
+    <!-- 01 Navigation Bar ######################### -->
+
+    
+    <nav class="navbar-1 navbar-expand-lg" style="background-color: #202124" >
+      <div class="container-fluid d-flex justify-content-between">
+        <a class="navbar-brand text-white" href="#"  style="font-size: 2rem;">Google News</a>
+        <!-- <h3 class="text-white">Google News</h3> -->
+
+        
+        <form class="d-flex justify-content-center w-50 mt-2" role="search">
+          
+          <input class="form-control form-control-lg w-100" id="search-bar" type="search"
+          placeholder="Search" aria-label="Search" />
+
+          <!-- Search Button beside search bar -->
+          <button class="btn btn-outline-success mx-2" type="submit">Search</button>
+
+        </form>
+
+        <div class="mt-3 "> 
+          <img class="mx-3" src="/Images/questionMark.png" alt="#" style="width:25px; height: 25px;">
+          <img src="/Images/settings.png" class="img-fluid" alt="#" style="width: 30px; height: 30px;"/>
+        </div>
+        
+        
+      </div>
+    </nav>
+    <!-- 01 Navigation Bar End ############################ -->
+
+    <!-- 02 Navigation Bar ############################### -->
+     
+    <nav class="navbar navbar-expand-lg mb-4" id="secondNavbar" style="background-color: #202124">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">For You</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Following</a>
+            </li>
+            <li class="nav-item d-flex align-items-center">
+              <a class="nav-link" href="#">News Showcase</a>
+              <div class="navbar-divider"></div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">India</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">World</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Local</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Business</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Technology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Entertainment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Science</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Health</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- 02 Navigation end   ################################## -->
+    <!-- Next -->
+
+    <!-- Your Briefing  -->
+    <div class="container d-flex col-lg-9">
+      <!-- Content here -->
+      <div class="text-white col-lg-10">
+        <h3>Your briefing</h3>
+        <p>Wednesday 1 October</p>
+      </div>
+
+      <div class=" rounded-5 col-lg-2 d-flex flex-row" id="sunLogo">
+        
+        <div class="d-flex justify-content-center align-items-center">
+          <img src="/Images/SunLogo.png" alt="#" width="60px">
+        </div>
+
+        <div class="d-flex flex-column"> 
+            <small class="text-white mt-2" style="font-size: 12px;">Uttar Pradesh</small>
+            <h3 class="m-0 text-white">32&deg;C</h3>
+            <small class="text-primary" style="font-size: 12px;">Google Weather</small>
+        </div>
+        
+        
+      </div>
+    </div>
+    <!-- End of Your Briefing ###################################################-->
+
+    <!-- Top Stories Start -->
+    <div class="container mt-3 d-flex col-lg-9">
+      <div class="d-flex" >                           <!-- By this i am able to do side by side of Top Stories and Local News-->
+        <!-- Left Section -->
+        <div class="Left-Section-TopStories col-lg-8 text-white p-3 rounded">
+          <h4>Top Stories</h4>
+            <hr>
+          <!-- Main Top Story Row -->
+          <div class="d-flex justify-content-between align-items-start mt-2">
+            <!-- Image + Title -->
+            <div class="col-lg-5">
+
+              <div class="image-trump">
+                <img src="/Images/StudpidTrump.webp" alt="Top Story" class="img-fluid rounded mb-2">
+              </div>
+              
+              <div class="d-flex align-items-center mb-1">
+                <img src="/Images/india-today-logo-png.png" alt="India Today" class="me-2" width="18" height="18" />
+                <small>India Today</small>
+              </div>
+              
+              <h6>Israel-Hamas Ceasefire Live: Trump again credits himself for India-Pak War</h6>
+              <small class="text-muted">24 minutes ago</small>
+              
+            </div>
+
+            <!-- Right-side Source -->
+              
+             <div class="text-start ms-lg-3">
+              <!-- One -->
+              <div class="mb-3">
+                  <div class="d-flex align-items-center mb-1">
+               <img src="/Images/NDTV.png" alt="#" width="30px">
+               <small>NDTV</small>
+              </div>
+              <p class="mb-0">India Will Continue Paying Massive Tariffs Over "Russian Oil", Says Trump</p>
+              <small>1 hour ago By Sanstuti Nath</small>
+              </div>
+
+              <!-- Two -->
+              <div class="mb-3">
+                <div class="d-flex align-items-center mb-1">
+                  <img class="me-2" src="/Images/The Hindu Logo.png" alt="#" width="16px">
+                  <small>The Hindu</small>
+                </div>
+                <p class="mb-0">India will not be buying oil from Russia: Trum reiterates</p>
+                <small>2 days ago</small>
+              </div>
+
+              <!-- Three -->
+              <div class="mb-3">
+                <div class="d-flex align-items-center mb-1">
+                  <img class="me-2" src="/Images/india-today-logo-png.png" alt="#" width="16px">
+                  <small>India Today</small>
+                </div>
+                <p class="mb-0">India Will Continue Paying Massive Tariffs Over "Russian Oil", Says Trump</p>
+                <small>2 days ago</small>
+              </div>              
+            </div>
+            
+              
+             <!-- ########################################### -->
+          </div>
+        </div>
+
+        <!-- Right Section -->
+        <div class="Right-Section-LocalNews text-white p-3 rounded ms-sm-1 ms-lg-3 mt-lg-0">
+          <h4>Local News</h4>
+          <hr>
+            <img src="/Images/TimesOfIndiaLogo.jpg" alt="#" width="15px" height="15px">
+            <small>Times of India</small>
+            <h6>This festival season, citizens opting for eco friendly idols</h6>
+            <small>14 hours ago By Rajiv Mani</small>
+            <!-- You can add more cards or stories here -->
+          <hr>
+          <img src="/Images/TimesOfIndiaLogo.jpg" alt="#" width="15px" height="15px">
+            <small>Times of India</small>
+            <h6>This festival season, citizens opting for eco friendly idols</h6>
+            <small>14 hours ago By Rajiv Mani</small>
+        </div>
+      
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+<!-- Use col-lg- in the navbar for aligning search box -->

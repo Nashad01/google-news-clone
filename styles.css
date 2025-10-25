@@ -1,0 +1,20 @@
+.navbar a{
+    color: white;
+    margin: 6px;
+}
+
+.Right-Section-LocalNews {
+    background-color: #1f1f1f;
+}
+
+.Left-Section-TopStories{
+    background-color: rgb(31, 31, 31);
+}
+
+#sunLogo{
+    background-color: rgb(31, 31, 31);
+}
+
+/* body {
+    font-family: sans-serif;
+} */
