@@ -7,11 +7,14 @@
 //     console.log("Mouse is leaved from the Basterd Donalt J. Trump News");
 // })
 
-
+/*
 document.querySelector('.Left-Section-TopStories').addEventListener('mouseenter', function(){
     document.querySelector('.Left-Section-TopStories').style.background = 'pink';
 })
 
 document.querySelector('.Left-Section-TopStories').addEventListener('mouseleave', function(){
     document.querySelector('.Left-Section-TopStories').style.background = 'yellow';
+
 })
+
+*/
